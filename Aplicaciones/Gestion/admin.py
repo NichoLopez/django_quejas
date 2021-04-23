@@ -1,5 +1,5 @@
 from django.contrib import admin
-from Gestion.models import Negocio, Departamento, Municipio, Departamento_municipio, Sucursal, Queja
+from Aplicaciones.Gestion.models import Negocio, Departamento, Municipio, Departamento_municipio, Sucursal, Queja
 # Register your models here.
 
 admin.site.register(Negocio)
