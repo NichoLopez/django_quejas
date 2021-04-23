@@ -1,7 +1,7 @@
 
 from django.http import HttpRequest
 from django.shortcuts import render
-from Gestion.forms import FormularioQueja
+from Aplicaciones.Gestion.forms import FormularioQueja
 
 # Create your views here.
 
