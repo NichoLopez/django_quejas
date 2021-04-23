@@ -1,5 +1,5 @@
 from django import forms
-from Aplicaciones.Gestion.models import Queja
+from Gestion.models import Queja
 
 class FormularioQueja(forms.ModelForm):
     class Meta:
