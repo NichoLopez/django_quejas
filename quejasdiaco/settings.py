@@ -92,7 +92,7 @@ from decouple import config
         #'PASSWORD': '6063',
         #'HOST': '127.0.0.1',
         #'DATABASE_PORT': '5432'  
-    }  
+    #}  
 #}
 
 DATABASES = {
