@@ -94,15 +94,13 @@ WSGI_APPLICATION = 'quejasdiaco.wsgi.application'
     #}  
 #}
 import dj_database_url
-#from decouple import config
-db_from_evn = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
+from decouple import config
 
-#DATABASES = {
- #   'default': dj_database_url.config(
-  #      default = config('DATABASE_URL')
-   # )
-#}
+DATABASES = {
+   'default': dj_database_url.config(
+        default = config('DATABASE_URL')
+    )
+}
 
 
 # Password validation
